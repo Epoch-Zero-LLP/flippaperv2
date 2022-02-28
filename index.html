@@ -627,13 +627,13 @@
             <input type='hidden' name='csrfmiddlewaretoken'
               value='2jKgK4teWYWgpvHj99pMFumyZKlsYjSmFPBAYP4oKC30M7BCyIlK9QcxTcwg4957' />
             <div class="form__block">
-              <div class="form__heading">Расчёт автоперевозки</div>
+              <div class="form__heading">Contact Details</div>
               <div class="form__row">
                 <div class="form__col">
                   <div class="form__group">
                     <div class="input-place">
                       <input name="from_city" type="text" class="form-input" required>
-                      <label class="placelabel">Откуда</label>
+                      <label class="placelabel">Name</label>
                     </div>
                   </div>
                 </div>
@@ -642,7 +642,7 @@
                     <div class="form__group">
                       <div class="input-place">
                         <input name="to_city" type="text" class="form-input" required>
-                        <label class="placelabel">Куда</label>
+                        <label class="placelabel">Company Name</label>
                       </div>
                     </div>
                   </div>
@@ -651,12 +651,16 @@
               <div class="form__row">
                 <div class="form__col">
                   <div class="form__group">
-                    <select name="ctc_type" class="select" data-placeholder="Тип КТК" required>
+                    <select name="ctc_type" class="select" data-placeholder="Project" required>
                       <option value=""></option>
 
-                      <option value="2">КТК 40</option>
+                      <option value="2">
+                        Tissue</option>
 
-                      <option value="1">КТК 20</option>
+                      <option value="3">Outside India</option>
+                      <option value="4">Copier</option>
+                      <option value="5">Writing & Printing Paper</option>
+                      <option value="1">Industrial Paper</option>
 
                     </select>
                   </div>
@@ -666,63 +670,16 @@
                     <div class="form__group">
                       <div class="input-place">
                         <input name="ctc_type_weight" type="text" class="form-input" required>
-                        <label class="placelabel">Вес КТК</label>
+                        <label class="placelabel">Location</label>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="form__block">
-              <div class="form__heading">Ваши данные</div>
-              <div class="form__row">
-                <div class="form__col">
-                  <div class="form__group">
-                    <div class="input-place">
-                      <input name="name" type="text" class="form-input" required>
-                      <label class="placelabel">Имя</label>
-                    </div>
-                  </div>
-                  <div class="form__group">
-                    <div class="input-place">
-                      <input name="company_name" type="text" class="form-input" required>
-                      <label class="placelabel">Название компании</label>
-                    </div>
-                  </div>
-                </div>
-                <div class="form__col">
-                  <div class="form__group">
-                    <div class="input-place">
-                      <input name="phone" type="text" class="form-input" required>
-                      <label class="placelabel">Телефон</label>
-                    </div>
-                  </div>
-                  <div class="form__group">
-                    <div class="input-place">
-                      <input name="email" type="text" class="form-input" required>
-                      <label class="placelabel">Электронная почта</label>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="form__full">
-                <textarea name="content" class="form-textarea" placeholder="Текст запроса" required></textarea>
-              </div>
-            </div>
-            <div class="form__block form__block_recaptcha">
-              <div class="form-checkbox form-checkbox--rulz">
-                <input type="checkbox" required checked> <span>Согласен на обработку персональных данных</span>
-              </div>
-              <div class="input-place">
-                <div name="recaptcha" class="g-recaptcha jsGRecaptcha"
-                  data-sitekey="6LdYpa8UAAAAAJYmkeLAUaQRc5Z_CnR08ceHUXF5" data-badge="inline"></div>
-                <div class="recaptcha-errors"></div>
-                <ul class="errorlist"></ul>
-              </div>
-            </div>
+
             <div class="form__end">
               <button class="form__btn btn jsBtnSuccess"><span>Send Request</span></button>
-              <div class="form__success jsFormSuccess">Ваш запрос отправлен.</div>
             </div>
           </form>
         </div>
@@ -731,36 +688,6 @@
 
 
   </div>
-
-
-
-
-  <div class="modal modal-success">
-    <div class="modal-wrapper">
-      <div class="modal-close js-modalClose"></div>
-      <div class="modal-content">
-        <div class="success">
-          <div class="success__imgwrap">
-            <img src="./static/images/send.e866ce6ba06f.svg" alt="" class="success__img">
-          </div>
-          <div class="success__desc">
-            <h2>Ваша заявка отправлена</h2>
-            <p>Благодарим за обращение. <br>Наш менеджер с вами свяжется.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="hellocookie hellocookie__hide">
-    <div class="hellocookie__text">Мы используем файлы cookie, чтобы улучшить работу сайта и обеспечить удобство его
-      использования. Продолжая использовать наш сайт, вы даете согласие на обработку файлов cookie.</div>
-    <div class="hellocookie__ok js-closeCookie btn"><span>Продолжить</span></div>
-  </div>
-
-
-
-
 
 
   <script type="text/javascript" src="./static/landing/js/jquery-3.3.1.min.a09e13ee94d5.js"></script>
