@@ -1,0 +1,7 @@
+.header-logo-en {
+  width: 200px;
+  height: 57px;
+  background: url("../images/logo__en_white.f39e99452211.svg") center no-repeat;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}

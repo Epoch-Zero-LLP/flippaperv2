@@ -1,0 +1,12 @@
+<svg width="54" height="32" viewBox="0 0 54 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1.80078 29.9355H52.2008V2.06451H1.80078V29.9355ZM53.1 0H0.9C0.402975 0 0 0.462193 0 1.03226V30.9677C0 31.5378 0.402975 32 0.9 32H53.1C53.597 32 54 31.5378 54 30.9677V1.03226C54 0.462193 53.597 0 53.1 0Z" fill="#B2BFD1"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H2V0H0V24Z" transform="translate(47 4)" fill="#5da689"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H2V0H0V24Z" transform="translate(42 4)" fill="#5da689"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H2V0H0V24Z" transform="translate(5 4)" fill="#5da689"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H2V0H0V24Z" transform="translate(10 4)" fill="#5da689"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 4.32143L1.29617 5.55587L4.5375 2.46889L7.77883 5.55587L9.075 4.32143L4.5375 0L0 4.32143Z" transform="translate(22.4629 21.8391)" fill="#B2BFD1"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M9.075 1.23444L7.77883 0L4.5375 3.08698L1.29617 0L0 1.23444L4.5375 5.55587L9.075 1.23444Z" transform="translate(22.4629 4.12299)" fill="#B2BFD1"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.5375 0L0 4.32143L4.5375 8.64286L5.83367 7.40841L2.59233 4.32143L5.83367 1.23444L4.5375 0Z" transform="translate(33.0371 11.1071)" fill="#B2BFD1"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1.29617 0L0 1.23444L3.24133 4.32143L0 7.40841L1.29617 8.64286L5.83367 4.32143L1.29617 0Z" transform="translate(15.1289 11.1071)" fill="#B2BFD1"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.2962 4.00278L11 2.76833L8.67533 4.9823H7.06475V3.44841L9.38942 1.23444L8.09325 0L6.14808 1.85254L4.20292 0L2.90675 1.23444L5.23142 3.44841V4.9823H3.62083L1.29617 2.76833L0 4.00278L1.94517 5.85532L0 7.70786L1.29617 8.9423L3.62083 6.72833H5.23142V8.26222L2.90675 10.4762L4.20292 11.7106L6.14808 9.8581L8.09325 11.7106L9.38942 10.4762L7.06475 8.26222V6.72833H8.67533L11 8.9423L12.2962 7.70786L10.351 5.85532L12.2962 4.00278Z" transform="translate(20.8516 9.57324)" fill="#5da689"/>
+</svg>

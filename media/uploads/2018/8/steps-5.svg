@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="99px" height="65px" viewBox="0 0 99 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>D64EDD38-9F64-4098-BEAA-D9D69C3170EA</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 64.1797 98.25 64.1797 98.25 -0.0003 0 -0.0003"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-Преимущества" transform="translate(-126.000000, -171.000000)">
+            <g id="05" transform="translate(77.000000, 35.000000)">
+                <g id="Page-1" transform="translate(49.000000, 136.000000)">
+                    <path d="M1,28.7694 L18.812,28.7694 L1,28.7694 Z" id="Stroke-1" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M1,37.0194 L18.812,37.0194" id="Stroke-3" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <polyline id="Stroke-5" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="79.25 16.7332 79.25 1.0002 1 1.0002 1 47.4462 19.187 47.4462"></polyline>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-8"></g>
+                    <polygon id="Stroke-7" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="19 63.1797 97.25 63.1797 97.25 16.7337 19 16.7337"></polygon>
+                    <path d="M58.125,34.5936 C56.556,32.6446 54.152,31.3936 51.455,31.3936 C46.727,31.3936 42.893,35.2276 42.893,39.9566 C42.893,44.6856 46.727,48.5186 51.455,48.5186 C54.152,48.5186 56.556,47.2686 58.125,45.3196" id="Stroke-9" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    <path d="M73.3574,39.9564 C73.3574,44.6854 69.5244,48.5194 64.7944,48.5194 C60.0664,48.5194 56.2324,44.6854 56.2324,39.9564 C56.2324,35.2274 60.0664,31.3934 64.7944,31.3934 C69.5244,31.3934 73.3574,35.2274 73.3574,39.9564 Z" id="Stroke-10" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,7 @@
+.hellocookie {
+ z-index: 999;
+ }
+
+.hellocookie__hide {
+  display: none;
+}

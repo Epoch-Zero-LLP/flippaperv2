@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="57x57" href="/static/icons/apple-touch-icon-57x57.f29b5512006a.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/static/icons/apple-touch-icon-60x60.7fe37be86498.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/static/icons/apple-touch-icon-72x72.330a138802a0.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/static/icons/apple-touch-icon-76x76.a8a9c1645201.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/static/icons/apple-touch-icon-114x114.aea3543a3aae.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/static/icons/apple-touch-icon-120x120.45f9602fdd83.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/static/icons/apple-touch-icon-144x144.339c70a2dfa9.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/static/icons/apple-touch-icon-152x152.0b5e1378502e.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/icons/apple-touch-icon-180x180.dc1ead3c67a3.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/icons/favicon-32x32.d70b0db9d1a2.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/static/icons/android-chrome-192x192.3b45ed2daf2f.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/icons/favicon-16x16.007788ff7663.png">
+  <link rel="manifest" href="/static/icons/site.be687d5eb1f2.webmanifest">
+  <link rel="mask-icon" href="/static/icons/safari-pinned-tab.fbb38abe6d17.svg" color="#0f088c">
+  <link rel="shortcut icon" href="/static/icons/favicon.eb193a05425e.ico">
+  <meta name="msapplication-TileColor" content="#0f088c">
+  <meta name="msapplication-TileImage" content="/static/icons/mstile-150x150.46a2ab7c7416.png">
+  <meta name="msapplication-config" content="/static/icons/browserconfig.a29d48be98ee.xml">
+  <meta name="theme-color" content="#204070">
+
+
+
+
+
+
+  <title>Flipaper</title>
+
+  <meta name="keywords" content="">
+  <meta name="description"
+    content="Обработка заявки на автоперевозку за 1 час. Перевозки в режиме таможенного транзита.">
+  <meta property="og:title" content="Автовывоз">
+  <meta property="og:description"
+    content="Обработка заявки на автоперевозку за 1 час. Перевозки в режиме таможенного транзита.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vmtp.ru/avtovyvoz">
+  <meta property="og:site_name" content="Автовывоз">
+  <meta property="og:locale" content="ru_RU">
+
+
+
+  <link rel="canonical" href="/avtovyvoz" />
+
+
+
+
+
+  <link rel="stylesheet" href="/static/css/datepicker.473fda1e4d11.css">
+  <link rel="stylesheet" href="/static/landing/css/style.b03c21d6298c.css">
+  <link rel="stylesheet" href="/static/landing/css/main.088fb0e85339.css">
+  <link rel="stylesheet" href="/static/landing/css/header.f03dc143699f.css">
+  <link href="/static/landing/css/cookie.39ed23cb8b70.css" rel="stylesheet">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/medium-editor/latest/css/medium-editor.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/medium-editor/latest/css/themes/beagle.min.css">
+
+
+  <link rel="canonical" href="" />
+
+
+
+  <script type="text/javascript" src="/static/js/jquery-3.3.1.min.a09e13ee94d5.js"></script>
+
+
+
+
+  <style>
+    .errorlist {
+      color: #ee8888;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      font-size: 12px;
+      height: 0;
+    }
+
+    .form__block_recaptcha {
+      border: none;
+      padding: 15px 35px;
+    }
+
+    @media screen and (max-width: 767.98px) {
+      .form__block_recaptcha {
+        padding: 15px;
+      }
+    }
+
+    @media screen and (max-width: 320px) {
+      .g-recaptcha {
+        margin-left: -21px;
+      }
+    }
+  </style>
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120509908-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120509908-3');
+  </script>
+
+
+  <script src='https://www.google.com/recaptcha/api.js?hl='></script>
+
+  <!-- Yandex.Metrika counter -->
+  <script
+    type="text/javascript"> (function (m, e, t, r, i, k, a) { m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) }; m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a) })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(87416679, "init", { clickmap: true, trackLinks: true, accurateTrackBounce: true });</script>
+  <noscript>
+    <div><img src="https://mc.yandex.ru/watch/87416679" style="position:absolute; left:-9999px;" alt="" /></div>
+  </noscript>
+  <!-- /Yandex.Metrika counter -->
+</head>
+
+<body class="landing-forwarding">
+  <div class="root">
+
+
+
+    <header class="header">
+      <div class="header__wrap">
+        <div class="header-logo">
+
+          <a href="/" class="header-logo__link"></a>
+
+        </div>
+        <div class="header-phone">8 (800) 770-00-70</div>
+        <!-- <div class="header-lang">
+          <a href="/avtovyvoz" style="opacity: .5;"> RU</a>
+          <a>/</a>
+          <a href="/en/avtovyvoz"> EN </a>
+        </div> -->
+
+        <a href="#" class="header-menu"></a>
+        <!-- <div class="header-search js-searchForm"></div>
+        <div class="header-user js-showUserMenu"></div>
+        <div class="header-menu js-showMenu"><span></span></div> -->
+      </div>
+    </header>
+
+
+
+    <!-- <div class="navs">
+      <ul id="nav">
+        <li><a data-menuanchor="page1" href="#page1" class="navs__link active"><span>01</span></a></li>
+        <li><a data-menuanchor="page2" href="#page2" class="navs__link"><span>02</span></a></li>
+        <li><a data-menuanchor="page3" href="#page3" class="navs__link"><span>03</span></a></li>
+        <li><a data-menuanchor="page4" href="#page4" class="navs__link"><span>04</span></a></li>
+        <li><a data-menuanchor="page5" href="#page5" class="navs__link"><span>05</span></a></li>
+      </ul>
+    </div> -->
+
+    <main class="main" id="fpage" data-pageclass="cargo_auto">
+      <div class="welcome page">
+        <div class="page__wrap">
+          <div class="welcome__heading">One of the largest manufacturer of<br />Paper and Paper Board</div>
+          <a href="#" class="btn btn--lg js-showform"><span>Send Request</span></a>
+          <div class="welcome-btm">
+            <div class="welcome-items__heading">Manufacturing Facilities</div>
+            <div class="welcome-items">
+              <div class="welcome-item">
+                <div class="welcome-item__num">51000TPA </div>
+                <div class="welcome-item__text">W&P</div>
+              </div>
+              <div class="welcome-item">
+                <div class="welcome-item__num">81000TPA</div>
+                <div class="welcome-item__text">Newsprint</div>
+              </div>
+              <div class="welcome-item">
+                <div class="welcome-item__num">200000TPA</div>
+                <div class="welcome-item__text">Multi-Layer Coated Board Plant</div>
+              </div>
+              <div class="welcome-item">
+                <div class="welcome-item__num">20000TPA</div>
+                <div class="welcome-item__text">Newsprint (Kerala)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="powers page">
+
+        <div class="page__wrap">
+          <div class="powers-blocks">
+
+            <div class="powers-block">
+              <div class="powers-block__img"><img src="/static/landing/img/blocks-1.89f00247e587.svg" alt="">
+              </div>
+              <div class="powers-block__name">QUALITY ASSURANCE</div>
+              <!-- <div class="powers-block__text">Year capacity</div> -->
+
+            </div>
+            <div class="powers-block">
+              <div class="powers-block__img"><img src="/static/landing/img/blocks-2.672688c03fcf.svg" alt=""></div>
+              <div class="powers-block__name">CUSTOMER SATISFACTION</div>
+              <!-- <div class="powers-block__text">container reloaders</div> -->
+
+            </div>
+            <div class="powers-block">
+              <div class="powers-block__img"><img src="/static/landing/img/blocks-3.9d5d202816be.svg" alt=""></div>
+              <div class="powers-block__name">ECO - FRIENDLY</div>
+              <!-- <div class="powers-block__text">lines</div> -->
+
+            </div>
+
+            <div class="powers-block">
+
+              <div class="powers-block__img"><img src="/static/landing/img/blocks-4.d796c0819a96.svg" alt=""></div>
+              <div class="powers-block__name powers-block__link js-popShow">
+                MULTINATIONAL COMPANY</div>
+              <!-- <div class="powers-block__text">per week</div> -->
+
+              <div class="bandwidth-popup">
+                <div class="bandwidth-popup__item">
+                  <h4 class="bandwidth-popup__left">We are everywhere</h4>
+
+                  <div class="bandwidth-popup__right"></div>
+                </div>
+
+
+                <div class="bandwidth-popup__item">
+                  <div class="bandwidth-popup__left">India</div>
+                  <div class="bandwidth-popup__right">14 outlets</div>
+                </div>
+                <div class="bandwidth-popup__item">
+                  <div class="bandwidth-popup__left">USA</div>
+                  <div class="bandwidth-popup__right">14 outlets</div>
+                </div>
+                <div class="bandwidth-popup__item">
+                  <div class="bandwidth-popup__left">Germany</div>
+                  <div class="bandwidth-popup__right">14 outlets</div>
+                </div>
+                <div class="bandwidth-popup__item">
+                  <div class="bandwidth-popup__left">Brazil</div>
+                  <div class="bandwidth-popup__right">14 outlets</div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="powers-content">
+
+            <div class="powers-content__heading">WHO WE ARE</div>
+            <div class="powers-content__text">We are situated at the foothills of the Himalayas in
+              Lalkuan, Uttarkhand, is a division of Century Textiles and Industries Limited. It is the largest
+              manufacturer of Paper, Board, Tissue, and Pulp from a single location in India with a capacity of 1450 MT
+              per day. It's in operation since 1984 and has been a major player in the domestic and the export market
+              for this industry. The company has service centers and sales offices across the country as well as agents
+              across the world.
+            </div>
+            <a href="#" class="powers-content__btn btn js-showform"><span>Send Request</span></a>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="steps page">
+        <div class="page__wrap">
+          <div class="steps__heading">We deliver any</div>
+          <div class="steps-itemsf">
+            <div class="steps-items-prev swiper-button-prev"></div>
+            <div class="steps-items-next swiper-button-next"></div>
+            <div class="steps-items-slider swiper-container">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="steps-itemf">
+                    <img class="steps-itemf__img" src="/media/uploads/2018/8/autot-1.svg" alt="">
+                    <div class="steps-itemf__desc">
+                      <div class="steps-itemf__name">Tissue</div>
+                      <div class="steps-itemf__text">one of the renowned tissue paper manufacturers in India is now a
+                        dominant name in the industry.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="steps-itemf">
+                    <img class="steps-itemf__img" src="/media/uploads/2018/8/autot-2.svg" alt="">
+                    <div class="steps-itemf__desc">
+                      <div class="steps-itemf__name">Copier</div>
+                      <div class="steps-itemf__text">
+                        multi-purpose paper to be used in most common type of office
+                        machines including photocopiers and various other printer types.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="steps-itemf">
+                    <img class="steps-itemf__img" src="/media/uploads/2018/8/autot-3.svg" alt="">
+                    <div class="steps-itemf__desc">
+                      <div class="steps-itemf__name">Writing & Printing Paper</div>
+                      <div class="steps-itemf__text">
+                        This segment is growing and we offer products ranging from Overlay Tissue, Stiffener, Cup stock,
+                        MICR (cheque paper), Absorbent Kraft.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="steps-itemf">
+                    <img class="steps-itemf__img" src="/media/uploads/2018/8/autot-4.svg" alt="">
+                    <div class="steps-itemf__desc">
+                      <div class="steps-itemf__name">Industrial Paper</div>
+                      <div class="steps-itemf__text">
+                        manufacture different type of paper used in Industrial use: wide range of packaging, cardboard,
+                        tissue, insulation and wrapping products.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          <div class="steps-btms">
+            <a href="#" class="btn js-showform"><span>Send Request</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="how how--exp page" style="background-color: #112D57;">
+        <div class="page__wrap">
+          <div class="how__heading">PLANET</div>
+
+          <div class="how-slider swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="how-item">
+                  <div class="how-item__name">ENERGY CONSERVATION</div>
+                  <ul class="how-item__list">
+                    <li>Use of RGP hot water in bagasse pulp mill</li>
+                    <li>Elimination of excess bagasse conveyor of a depither plant</li>
+                    <li>Addition of a 2500 KVAR new capacitor in circuit to maintain plant power factor</li>
+                    <li>Interlocking of deflaker motor with broke tower pump</li>
+                  </ul>
+                  <div class="how-item__num"><span>1</span></div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="how-item">
+                  <div class="how-item__name">FOREST CONSERVATION</div>
+                  <ul class="how-item__list">
+                    <li>Bagasse and recycled waste paper used as a raw material eventually helps in conservation of
+                      forests</li>
+                    <li>Installation of screw presses for effluent solids to be reused</li>
+                    <li>Steam prehydrolysis process at fibreline acts as an energy saver, helping in water conservation
+                      and reduction in effluent load</li>
+                    <li>ECF pulping at the new fibreline (pulp mill) is chlorine-free</li>
+                  </ul>
+                  <div class="how-item__num"><span>2</span></div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="how-item">
+                  <div class="how-item__name">ENERGY CONSERVATION</div>
+                  <ul class="how-item__list">
+                    <li>Use of RGP hot water in bagasse pulp mill</li>
+                    <li>Elimination of excess bagasse conveyor of a depither plant</li>
+                    <li>Addition of a 2500 KVAR new capacitor in circuit to maintain plant power factor</li>
+                    <li>Interlocking of deflaker motor with broke tower pump</li>
+                  </ul>
+                  <div class="how-item__num"><span>3</span></div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="how-item">
+                  <div class="how-item__name">FOREST CONSERVATION</div>
+                  <ul class="how-item__list">
+                    <li>Bagasse and recycled waste paper used as a raw material eventually helps in conservation of
+                      forests</li>
+                    <li>Installation of screw presses for effluent solids to be reused</li>
+                    <li>Steam prehydrolysis process at fibreline acts as an energy saver, helping in water conservation
+                      and reduction in effluent load</li>
+                    <li>ECF pulping at the new fibreline (pulp mill) is chlorine-free</li>
+                  </ul>
+                  <div class="how-item__num"><span>4</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="how__btm">
+            <a href="#" class="btn js-showform"><span>Send Request</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="white-exp page">
+        <div class="page__wrap">
+          <div class="white-exp-blocks">
+            <div class="white-exp-block">
+              <div class="white-exp-block__img"><img src="/static/landing/img/exppp-1.svg" alt=""></div>
+              <div class="white-exp-block__label">Comprehensive <br />
+                solutions</div>
+            </div>
+            <div class="white-exp-block">
+              <div class="white-exp-block__img"><img src="/static/landing/img/exppp-2.svg" alt=""></div>
+              <div class="white-exp-block__label">First-hand <br />
+                service</div>
+            </div>
+            <div class="white-exp-block">
+              <div class="white-exp-block__img"><img src="/static/landing/img/exppp-3.svg" alt=""></div>
+              <div class="white-exp-block__label">Time-tested</div>
+            </div>
+            <div class="white-exp-block">
+              <div class="white-exp-block__img"><img src="/static/landing/img/exppp-4.svg" alt=""></div>
+              <div class="white-exp-block__label">Agent network
+                in more than 50
+                countries</div>
+            </div>
+          </div>
+          <div class="white-exp-content">
+            <div class="white-exp-content__heading">Why do Customers choose us?</div>
+            <div class="white-exp-content__text">
+              <ul>
+                <li>Individual manager</li>
+                <li>Freight Forwarder Liability Insurance</li>
+                <li>Legally valid transactions</li>
+                <li>Delivery period guarantee</li>
+                <li>Delivery stages informing</li>
+              </ul>
+            </div>
+
+            <a href="#" class="btn js-showform"><span>Send Request</span></a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="powers-auto page">
+        <div class="page__wrap">
+
+          <div class="powers-auto-blocks">
+            <div class="powers-auto-block">
+              <div class="powers-auto-block__img"><img src="/static/landing/img/autos-1.160bcfa124ef.svg" alt=""></div>
+              <div class="powers-auto-block__label">Vehicle cargo delivery </div>
+              <div class="powers-auto-block__text">to (from) the terminal and port territory</div>
+            </div>
+            <div class="powers-auto-block">
+              <div class="powers-auto-block__img"><img src="/static/landing/img/autos-2.8635f3491d19.svg" alt=""></div>
+              <div class="powers-auto-block__label">Hazardous cargos</div>
+              <div class="powers-auto-block__text">Delivery and securing of a vehicle carrying a hazardous cargo
+              </div>
+            </div>
+            <div class="powers-auto-block">
+              <div class="powers-auto-block__img"><img src="/static/landing/img/autos-3.83bf169cf9a5.svg" alt=""></div>
+              <div class="powers-auto-block__label">Control services</div>
+              <div class="powers-auto-block__text">Coordination and planning of vehicle cargo import (export) to (from)
+                the territory of terminals and port</div>
+            </div>
+            <div class="powers-auto-block">
+              <div class="powers-auto-block__img"><img src="/static/landing/img/autos-4.83ea9a47d529.svg" alt=""></div>
+              <div class="powers-auto-block__label">Weighing of large-capacity containers,</div>
+              <div class="powers-auto-block__text">cargos, special equipment and vehicles using a platform automobile
+                scales, including VGM certificate issuance </div>
+            </div>
+          </div>
+          <div class="powers-auto-content">
+            <div class="powers-auto-content__heading">Full range of cargo delivery services</div>
+            <div class="powers-auto-content__text">Century Pulp & Paper is committed to strengthening its position as a
+              market leader. This is accomplished by developing a company-wide culture that promotes:</div>
+
+            <div class="white-exp-content__text">
+              <ul>
+                <li style="text-transform: capitalize;">CUSTOMER DELIGHT</li>
+                <li style="text-transform: capitalize;">QUALITY, ENVIRONMENTAL, SAFETY AND INFORMATION SECURITY
+                  INITIATIVE</li>
+                <li style="text-transform: capitalize;">ENVIRONMENTALLY-FRIENDLY, SAFE AND ENERGY-EFFICIENT OPERATIONS
+                </li>
+                <li style="text-transform: capitalize;">PROTECTION OF INFORMATION FOR ALL STAKEHOLDERS</li>
+              </ul>
+            </div>
+            <a href="#" class="powers-auto-content__btn btn js-showform"><span>Send Request</span></a>
+
+            <div class="powers-auto-content__info">
+              <br />
+              <br />
+              You may be interested in: <br>
+
+              <a href="">Freight forwarding </a> and <a href="">Customs
+                clearance</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="wserv page">
+        <div class="page__wrap">
+
+          <div class="wserv__items">
+            <div class="wserv-item">
+              <img src="/static/img/autoi-1.svg" alt="" class="wserv-item__icon">
+              <div class="wserv-item__name">Multy Layer coated Board</div>
+              <div class="wserv-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+            </div>
+            <div class="wserv-item">
+              <img src="/static/img/autoi-2.svg" alt="" class="wserv-item__icon">
+              <div class="wserv-item__name">Writing and printing paper</div>
+              <div class="wserv-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.</div>
+            </div>
+            <div class="wserv-item">
+              <img src="/static/img/autoi-3.svg" alt="" class="wserv-item__icon">
+              <div class="wserv-item__name">Newsprint</div>
+              <div class="wserv-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.</div>
+            </div>
+            <div class="wserv-item">
+              <img src="/static/img/autoi-4.svg" alt="" class="wserv-item__icon">
+              <div class="wserv-item__name">24-hour service</div>
+              <div class="wserv-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.</div>
+            </div>
+          </div>
+          <div class="wserv-btms">
+            <a href="#" class="btn js-showform"><span>Send Request</span></a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="powers-exp page">
+        <div class="page__wrap">
+
+          <div class="powers-exp-blocks">
+            <div class="powers-exp-block">
+              <div class="powers-exp-block__img"><img src="/static/landing/img/expp-1.82ce8f2db9fa.svg" alt=""></div>
+              <div class="powers-exp-block__label">Exports</div>
+            </div>
+            <div class="powers-exp-block">
+              <div class="powers-exp-block__img"><img src="/static/landing/img/expp-2.61caa840e617.svg" alt=""></div>
+              <div class="powers-exp-block__label">Imports</div>
+            </div>
+            <div class="powers-exp-block">
+              <div class="powers-exp-block__img"><img src="/static/landing/img/expp-3.1e8b7f868f63.svg" alt=""></div>
+              <div class="powers-exp-block__label">Intraport
+                freight forwarding</div>
+            </div>
+            <div class="powers-exp-block">
+              <div class="powers-exp-block__img"><img src="/static/landing/img/expp-4.3e781c191693.svg" alt=""></div>
+              <div class="powers-exp-block__label">Train
+                dispatch</div>
+            </div>
+
+
+          </div>
+          <div class="powers-exp-content">
+            <div class="powers-exp-content__heading">Our services</div>
+            <div class="powers-exp-content__text">
+              <ul>
+                <li>
+                  Customer’s door cargo delivery
+                </li>
+                <li>Secure storage</li>
+                <li>Insurance</li>
+                <li>Supplier search</li>
+                <li>Certification</li>
+              </ul>
+            </div>
+            <a href="#" class="powers-content__btn btn js-showform"><span>Send Request</span></a>
+
+            <div class="powers-exp-content__info">
+              <br />
+              <br />
+              Pay attention to <br>
+              <a href="">Consolidated cargos</a> and <a href="">Customs
+                clearance</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="manager page">
+        <div class="page__wrap">
+
+          <div class="manager-deva">
+            <img src="/static/landing/img/" alt="">
+          </div>
+
+          <div class="manager-content">
+            <div class="manager-content__heading">Personal manager for each Customer </div>
+            <div class="manager-content__text">
+              <p>Paper transportation and handling are the process many people are involved in. It’s problematic for
+                Customer to figure out the exact contact person. </p>
+              <p>We use "one-stop-shop" business principle for our work. Each Customer has a personal manager who
+                controls the Customer’s services in the port: </p>
+            </div>
+            <div class="manager-content__list">
+              <p>Package handling stages</p>
+              <p>Rates financial quotes</p>
+              <p>Customer services consulting</p>
+            </div>
+            <a href="#" class="manager-content__btn btn btn--lg js-showform"><span>Send Request</span></a>
+          </div>
+
+        </div>
+      </div>
+
+    </main>
+
+    <div class="contact">
+      <div class="contact__close js-hideform"></div>
+      <div class="contact__wrap">
+        <div class="contact__heading">Send Request</div>
+        <div class="contact__scroll" data-simplebar data-simplebar-auto-hide="false">
+          <form class="form jsFromAjax ajax-form" data-final="formSuccess" method="POST"
+            action="/api/forms/cargo_auto/">
+            <input type='hidden' name='csrfmiddlewaretoken'
+              value='2jKgK4teWYWgpvHj99pMFumyZKlsYjSmFPBAYP4oKC30M7BCyIlK9QcxTcwg4957' />
+            <div class="form__block">
+              <div class="form__heading">Расчёт автоперевозки</div>
+              <div class="form__row">
+                <div class="form__col">
+                  <div class="form__group">
+                    <div class="input-place">
+                      <input name="from_city" type="text" class="form-input" required>
+                      <label class="placelabel">Откуда</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form__col">
+                  <div class="form__group">
+                    <div class="form__group">
+                      <div class="input-place">
+                        <input name="to_city" type="text" class="form-input" required>
+                        <label class="placelabel">Куда</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form__row">
+                <div class="form__col">
+                  <div class="form__group">
+                    <select name="ctc_type" class="select" data-placeholder="Тип КТК" required>
+                      <option value=""></option>
+
+                      <option value="2">КТК 40</option>
+
+                      <option value="1">КТК 20</option>
+
+                    </select>
+                  </div>
+                </div>
+                <div class="form__col">
+                  <div class="form__group">
+                    <div class="form__group">
+                      <div class="input-place">
+                        <input name="ctc_type_weight" type="text" class="form-input" required>
+                        <label class="placelabel">Вес КТК</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form__block">
+              <div class="form__heading">Ваши данные</div>
+              <div class="form__row">
+                <div class="form__col">
+                  <div class="form__group">
+                    <div class="input-place">
+                      <input name="name" type="text" class="form-input" required>
+                      <label class="placelabel">Имя</label>
+                    </div>
+                  </div>
+                  <div class="form__group">
+                    <div class="input-place">
+                      <input name="company_name" type="text" class="form-input" required>
+                      <label class="placelabel">Название компании</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form__col">
+                  <div class="form__group">
+                    <div class="input-place">
+                      <input name="phone" type="text" class="form-input" required>
+                      <label class="placelabel">Телефон</label>
+                    </div>
+                  </div>
+                  <div class="form__group">
+                    <div class="input-place">
+                      <input name="email" type="text" class="form-input" required>
+                      <label class="placelabel">Электронная почта</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form__full">
+                <textarea name="content" class="form-textarea" placeholder="Текст запроса" required></textarea>
+              </div>
+            </div>
+            <div class="form__block form__block_recaptcha">
+              <div class="form-checkbox form-checkbox--rulz">
+                <input type="checkbox" required checked> <span>Согласен на обработку персональных данных</span>
+              </div>
+              <div class="input-place">
+                <div name="recaptcha" class="g-recaptcha jsGRecaptcha"
+                  data-sitekey="6LdYpa8UAAAAAJYmkeLAUaQRc5Z_CnR08ceHUXF5" data-badge="inline"></div>
+                <div class="recaptcha-errors"></div>
+                <ul class="errorlist"></ul>
+              </div>
+            </div>
+            <div class="form__end">
+              <button class="form__btn btn jsBtnSuccess"><span>Send Request</span></button>
+              <div class="form__success jsFormSuccess">Ваш запрос отправлен.</div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+  <div class="modal modal-success">
+    <div class="modal-wrapper">
+      <div class="modal-close js-modalClose"></div>
+      <div class="modal-content">
+        <div class="success">
+          <div class="success__imgwrap">
+            <img src="/static/images/send.e866ce6ba06f.svg" alt="" class="success__img">
+          </div>
+          <div class="success__desc">
+            <h2>Ваша заявка отправлена</h2>
+            <p>Благодарим за обращение. <br>Наш менеджер с вами свяжется.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hellocookie hellocookie__hide">
+    <div class="hellocookie__text">Мы используем файлы cookie, чтобы улучшить работу сайта и обеспечить удобство его
+      использования. Продолжая использовать наш сайт, вы даете согласие на обработку файлов cookie.</div>
+    <div class="hellocookie__ok js-closeCookie btn"><span>Продолжить</span></div>
+  </div>
+
+
+
+
+
+
+  <script type="text/javascript" src="/static/landing/js/jquery-3.3.1.min.a09e13ee94d5.js"></script>
+  <script type="text/javascript" src="/static/landing/js/jquery.fullpage.min.bf94e485f77d.js"></script>
+  <script type="text/javascript" src="/static/landing/js/swiper.min.b117060487d6.js"></script>
+  <script type="text/javascript" src="/static/landing/js/simplebar.abc5931090b3.js"></script>
+  <script type="text/javascript" src="https://alvarotrigo.com/fullPage/vendors/scrolloverflow.js"></script>
+  <script type="text/javascript" src="/static/bundles/bundle.ab907662ad95.js"></script>
+  <script type="text/javascript" src="/static/landing/js/script.c154b9b7c722.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/phone-codes/phone-ru.js"></script>
+  <script type="text/javascript" src="/static/js/datepicker.9a777565fdb8.js"></script>
+  <script type="text/javascript" src="/static/js/form.697a8292d086.js"></script>
+  <script type="text/javascript" src="/static/landing/js/cookie.7115c87b41f3.js"></script>
+  <script src="//cdn.jsdelivr.net/medium-editor/latest/js/medium-editor.min.js"></script>
+
+
+
+
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function (d, w, c) {
+      (w[c] = w[c] || []).push(function () {
+        try {
+          w.yaCounter50171713 = new Ya.Metrika2({
+            id: 50171713,
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+          });
+        } catch (e) { }
+      });
+
+      var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+      if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+      } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+  </script>
+  <noscript>
+    <div><img src="https://mc.yandex.ru/watch/50171713" style="position:absolute; left:-9999px;" alt="" /></div>
+  </noscript>
+  <!-- /Yandex.Metrika counter -->
+
+
+</body>
+
+</html>

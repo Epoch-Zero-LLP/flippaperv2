@@ -1,0 +1,229 @@
+#cadesplugin_ovr {
+    z-index: 100;
+}
+
+#cadesplugin_close_install {
+    border: 1px solid #dadada;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+}
+
+.header-phone a {
+    color: #fff;
+}
+
+.header-phone a:hover,
+.header-phone a:focus {
+    color: #fff
+}
+
+.btn--icon-helper {
+    background-image: url("../img/iconfinder_help.ad2f803d486b.svg");
+    background-position: center;
+    background-color: #fff;
+    border: none;
+    max-width: 30px;
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding: 0px;
+}
+
+.btn--icon-helper:hover:before {
+    display: none;
+}
+
+/* .invalid class prevents CSS from automatically applying
+.invalid input:required:invalid {
+    border: 1px solid #BE4C54;
+}
+.invalid textarea:required:invalid {
+    border: 1px solid #BE4C54;
+}
+.invalid select:required:invalid {
+    border: 1px solid #BE4C54;
+}
+
+.invalid input:required:valid {
+    border: 1px solid #00d845;
+}
+.invalid textarea:required:valid {
+    border: 1px solid #00d845;
+}
+.invalid select:required:valid {
+    border: 1px solid #00d845;
+} */
+
+
+input:invalid {
+    box-shadow: none;
+}
+
+.video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    z-index: 1;
+    opacity: .7;
+}
+
+.btn:disabled {
+    filter: grayscale(1);
+}
+
+.btn:disabled:before {
+    display: none;
+}
+
+.btn:disabled:hover {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.ordering-table {
+    position: relative;
+    max-width: 150px;
+    min-width: 150px;
+    display: block;
+    cursor: pointer;
+}
+
+.ordering-table.active:before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 15px;
+    right: -25px;
+    width: 0;
+    height: 0;
+    border-color: #5da689 transparent transparent transparent;
+    border-style: solid;
+    margin: 0;
+}
+
+
+.ordering-table.up:before {
+    /* border-width: 5px 5px 8 5px; */
+    border: 5px solid transparent;
+    border-bottom: 8px solid #5da689;
+    top: 10px;
+}
+
+.ordering-table.down:before {
+    border-width: 7px 5px 0 5px;
+}
+
+.input-file-fix {
+    font-size: 15px !important;
+    max-width: 200px;
+}
+
+.mainmenu-close {
+    transform: translate3d(0, 0, 0);
+    z-index: 10;
+}
+
+/*.welcome-services__icon {
+    min-width: 70px;
+}*/
+
+.vacancies-share .ya-share2__badge {
+    border-radius: 50%;
+}
+
+.vacancies-share .ya-share2__container_size_m .ya-share2__icon {
+    height: 30px;
+    width: 30px;
+}
+
+.vacancies-share .ya-share2__link {
+    margin-right: 25px;
+    opacity: 0.6;
+    transition: 0.3s linear;
+}
+
+.vacancies-share .ya-share2__link:hover {
+    opacity: 1;
+}
+
+
+/*@media screen and (max-width: 767.98px) {
+
+    .welcome-services__icon {
+        min-width: auto;
+    }
+    .welcome__link {
+        border-bottom: 2px solid #E5E9F0;
+        padding: 0px 30px;
+        height: 90px;
+        line-height: 1;
+    }
+    /*.welcome__heading {
+        width: 100%;
+        text-align: center;
+        padding: 0px 26px;
+        margin-bottom: 36px;
+        margin-top: 22px;
+        font-size: 22px;
+        min-height: 68px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .welcome-services__link span {
+        -ms-flex-order: 0;
+        order: 0;
+    }
+
+    .welcome-services__link {
+        height: 119px;
+        padding-left: 43px;
+        padding-right: 35px;
+        -webkit-box-pack: flex-start;
+        -ms-flex-pack: flex-start;
+        justify-content: flex-start;
+        border-bottom: 2px solid #E5E9F0;
+    }
+
+    .welcome-services__icon {
+        width: 47px;
+        height: 43px;
+        background-size: 47px 43px;
+        margin-right: 39px;
+    }
+}*/
+
+@media screen and (max-width: 480px) {
+
+    /* Ð¿Ð»Ð°Ð½ Ð¿Ð¾Ñ€Ñ‚Ð° */
+    .maps .plan-item {
+        height: calc(100vh - 100px);
+    }
+
+    .maps .plan-item .mapsvg-wrap {
+        height: 100% !important;
+    }
+
+    .maps .plan-item .mapsvg-wrap .mapsvg {
+        height: 100% !important;
+    }
+}
+
+
+
+/* -------------------- */
+
+.ui-state-disabled .ui-state-default {
+    color: #b4b4b4 !important;
+}

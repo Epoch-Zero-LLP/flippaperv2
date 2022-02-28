@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="81px" viewBox="0 0 73 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>FF043CD9-57BF-4E69-8862-770565A1EC6B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 81 72.208 81 72.208 0.125 0 0.125"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-Преимущества-Copy" transform="translate(-139.000000, -189.000000)">
+            <g id="Group" transform="translate(139.000000, 188.875000)">
+                <path d="M8.6251,9.125 L8.6251,1.125" id="Stroke-1" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M8.6251,32.75 L8.6251,24.75" id="Stroke-3" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M8.6251,56.375 L8.6251,48.375" id="Stroke-4" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M8.6251,80 L8.6251,72.375 L8.6251,80 Z" id="Stroke-5" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <polygon id="Stroke-7" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="16.2501 24.375 1.0001 24.375 8.6251 9.125"></polygon>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-10"></g>
+                <polygon id="Stroke-9" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="1 48.375 16.25 48.375 16.25 33.125 1 33.125"></polygon>
+                <path d="M8.6251,72.375 C4.4141,72.375 1.0001,68.961 1.0001,64.75 C1.0001,60.539 4.4141,57.125 8.6251,57.125 C12.8361,57.125 16.2501,60.539 16.2501,64.75 C16.2501,68.961 12.8361,72.375 8.6251,72.375 Z" id="Stroke-11" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M33.1652,72 L33.1652,80" id="Stroke-12" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M33.1652,48.375 L33.1652,56.375" id="Stroke-13" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M33.1652,24.75 L33.1652,32.75" id="Stroke-14" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M33.1652,1.125 L33.1652,8.75" id="Stroke-15" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <polygon id="Stroke-16" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="25.5402 56.75 40.7902 56.75 33.1652 72"></polygon>
+                <polygon id="Stroke-17" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="25.54 48 40.79 48 40.79 32.75 25.54 32.75"></polygon>
+                <path d="M33.1652,8.75 C37.3762,8.75 40.7902,12.164 40.7902,16.375 C40.7902,20.586 37.3762,24 33.1652,24 C28.9542,24 25.5402,20.586 25.5402,16.375 C25.5402,12.164 28.9542,8.75 33.1652,8.75 Z" id="Stroke-18" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M50.2072,16.625 L71.2072,16.625" id="Stroke-19" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M50.2072,41.125 L71.2072,41.125" id="Stroke-20" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M50.2072,65.625 L71.2072,65.625" id="Stroke-21" stroke="#009ED7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
